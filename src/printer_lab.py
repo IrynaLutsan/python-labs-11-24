@@ -68,3 +68,4 @@ pr3.set_name("new name")
 pr3.set_speed("15")
 pr3.set_price("9000")
 print(pr3)
+
