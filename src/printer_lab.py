@@ -30,14 +30,12 @@ class Printer:
     def set_price(self, price):
         self.__price = price
     
-    
     def __str__(self):
         return Printer.manufacturer + ": " + self.__name + " / " + str(self.__speed) + " ppm " + "(" + str(self.__price) + " грн" + ")"
     
     def __repr__(self):
         return f'Printer("{self.__name}", {self.__speed}, {self.__price})'
     
-
 
 print(Printer.count)      
 pr1 = Printer("OfficeJet Pro 8122e", 18, 7500)
@@ -62,7 +60,6 @@ del pr2
 print(Printer.count)
 
 print(pr3.get_name(), pr3.get_speed(), pr3.get_price(), sep=" ")
-
 
 pr3.set_name("new name")
 pr3.set_speed("15")
