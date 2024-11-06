@@ -2,7 +2,7 @@ class Printer:
     manufacturer = "hp"
     count = 0
     
-    def __init__(self, name = "OfficeJet Pro 8567e", speed = 35, price = 9500):
+    def __init__(self, name="OfficeJet Pro 8567e", speed=35, price=9500):
         self.__name = name
         self.__speed = speed
         self.__price = price
