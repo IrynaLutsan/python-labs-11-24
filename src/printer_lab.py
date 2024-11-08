@@ -36,7 +36,6 @@ class Printer:
     def __repr__(self):
         return f'Printer("{self.__name}", {self.__speed}, {self.__price})'
     
-
 print(Printer.count)      
 pr1 = Printer("OfficeJet Pro 8122e", 18, 7500)
 # accessing class property using object
